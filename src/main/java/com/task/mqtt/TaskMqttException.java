@@ -5,7 +5,7 @@ public class TaskMqttException extends Exception {
 	 * @author liufan
 	 */
 	private static final long serialVersionUID = 1L;
-	private String reason = "BIAODA MQTT ERROR";
+	private String reason = "TASK MQTT EXCEPTION";
 
 	public TaskMqttException(){
 		super();
